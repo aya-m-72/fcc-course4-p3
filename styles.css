@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: karla,sans-serif;
+    text-align: center;
+    padding: 2rem;
+    background-color: rgb(53, 53, 53);
+    color: white;
+}
+#tooltip {
+    background-color: rgba(0,0,0,0.8);
+    color:white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    opacity: 1;
+    position: absolute; 
+    top:0;
+    left:0;
+}
+.cell-bor:hover {
+    stroke:black;
+    stroke-width: 1.5px;
+}
